@@ -53,9 +53,16 @@ setInterval("refreshData()", 1000 );
 
 </script>
 
+<style>
+    #frameScale { width: 1390px; height: 2940px; padding: 0; position:relative; left:-90px; top:0px; overflow: hidden; }
+    #frame { width: 1390px; height: 2940px; position:relative; left:25px; top:0px; }
+    #frame { -ms-zoom: 2.7; -moz-transform: scale(2.7); -moz-transform-origin: 0px 0; -o-transform: scale(2.7); -o-transform-origin: 0 0; -webkit-transform: scale(2.7); -webkit-transform-origin: 0 0; }
+</style>
+<div id="frameScale ">
+    <iframe id="frame" src="https://blynk.cloud/external/api/get?token=pPJ3WL15vgvwmpmjHa23LGYM-Rw86E6d&v0&v1&v2&v3&v4&v5&v6&v7&v8&v9&v10"></iframe>
+</div>
 
 
-<iframe src="https://blynk.cloud/external/api/get?token=pPJ3WL15vgvwmpmjHa23LGYM-Rw86E6d&v0&v1&v2&v3&v4&v5&v6&v7&v8&v9&v10" width="800" height="400" name="framedata" id="framedata" ></iframe>
 
 
 
